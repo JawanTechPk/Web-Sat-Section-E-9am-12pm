@@ -1,0 +1,97 @@
+/* ///universal selector// */
+/* *{
+    background-color: lightgray;
+}
+ */
+
+
+/* ///type selector/// */
+/* h1{
+    background-color : blue ;
+} */
+
+/* //id selector/// */
+/* #p1{
+    color: red;
+    background-color: black;
+} */
+
+
+/* ///class selector/// */
+/* .para1{
+    background-color : grey;
+} */
+
+/* 
+#p1 , .para1{
+    color: red;
+    background-color: green;
+} */
+
+
+/* ///child selector// */
+/* 
+.div1>b{
+        color: red;
+} */
+
+/* //Descendant Selector/// */
+/* .div1 b{
+        color: red;
+}
+
+.heading1~p{
+        color: royalblue;
+} */
+
+
+/* .heading1{
+    background-color: red;
+    font-style: inherit;
+}
+
+.newPara{
+    background-color: red !important ;
+} */
+
+/* 
+#a1{
+    color: mediumblue;
+} */
+.anchor{
+    color: seagreen;
+}
+
+a{
+    color: mediumvioletred;
+    text-decoration: none;  
+}
+
+
+.para1{
+    /* color: rgb(102, 255, 102); */
+    color: black ;
+    /* background-color: #EC7063; */
+    background-color: rgba(255, 0, 0, 0.4);
+    /* font-family:  ; */
+
+
+}
+
+
+#p1{
+    font-size:18px;
+    font-weight: bold;
+    font-style: normal;
+    /* text-transform:lowercase ;
+    text-transform: uppercase; */
+    text-transform: capitalize;
+    line-height: 1.5em;
+    /* word-spacing: 1.3em; */
+    letter-spacing: 1.4em;
+}
+h1{
+    font-weight: normal;
+    text-decoration:10px underline overline line-through orange;
+    
+}

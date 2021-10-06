@@ -1,0 +1,152 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap'); */
+
+/* @font-face {
+    font-family: Usama ;
+    src: url(./Roboto/Roboto-Medium.ttf),
+}
+@font-face {
+    font-family: Usama ;
+    src: url(./Roboto/Roboto-Medium.ttf);
+} */
+
+/* .container {
+    border: 2px solid purple;
+    width: 1000px;
+    position: relative;
+}
+.box {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute; */
+     /* top bottom left right   */
+    /* bottom: 40px;
+     right: 30px;
+} */
+
+/* .container {
+    width: 900px;
+    height: 500px;
+    border: 2px solid purple;
+    margin:auto;
+}
+.item {
+    border: 2px solid red;
+    margin: 13px 5px;
+    font-family: Usama; */
+    /* width: 200px;
+    height: 200px; */
+/* } */
+/* #computer{
+    float: left;
+    width:30%;
+    background-color: orange;
+}
+#shirts{
+    float: left;
+    width:30%;
+    background-color: yellow;
+}
+#stationary{
+    float: left;
+    background-color: red;
+    width:30%;
+}
+.container2{
+    width:90%;
+    margin: auto;
+} */
+
+/* #Contact {
+    background-image: url('https://images.unsplash.com/photo-1619995745882-f4128ac82ad6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80'); */
+    /* vh vw  */
+    /* height: 90vh ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: center; */
+
+
+    /* background-size: cover; */
+    /* border: 2px solid black; */
+/* }
+
+.fab{
+    /* font-size: 50px; */
+    /* background: khaki; */
+    /* color: lawngreen; */
+/* } */
+
+nav {
+    /* border: 2px solid purple;
+    height: 200px; */
+    position: sticky;
+    top:1px;
+    background-color:khaki;
+    border: 3px solid gray;
+    height: 80px;
+    /* z-index: 999; */
+}
+.container {
+    width:90%;
+    margin: auto;
+    background-color: orange;
+}
+.image img {
+    width:60px;
+    float: left;
+}
+.links {
+    float: right;
+}
+.link {
+    list-style: none;
+    display: inline-block;
+    padding: 13px 15px;
+}
+#About {
+    background-image: url('./assets/images/car-49278_1280.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item{
+    border: 2px solid black;
+    margin: 13px 5px;
+    padding: 10px 10px;
+    position: relative;
+}
+.container2{
+    width:90%;
+    margin: auto;
+}
+.subImage{
+    width:200px;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+.subImage img{
+    width:100%;
+    /* display: block;
+    margin: auto; */
+}
+#car{
+    float: left;
+    width:25%;
+}
+#bike{
+    width:25%;
+    float: left;
+}
+#tractor{
+    width:25%;
+    float: left;
+}
+.far{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: red;
+}

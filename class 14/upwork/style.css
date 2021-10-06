@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+}
+
+.header{
+    /* border: 2px solid red; */
+    padding: 0 15px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.headerBox{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;  
+    border-bottom: 2px solid lightgray;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid purple; */
+    width: 60%;
+    justify-content: space-around;
+}
+.logo li{
+    display: inline-block;
+    margin:5px;
+    /* color: black; */
+    color: grey !important;
+
+    
+}
+
+.logo li i{
+    color: #CCD4CB;
+}
+.usersBTn{
+    /* border: 2px solid red; */
+    padding: 8px;
+}
+.usersBTn a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+.usersBTn a:hover{
+    color: #14A800;
+}
+
+.signUpBtn{
+    /* border: 1px solid black; */
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #14A800;
+    color: white !important;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.topSection{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    color: grey !important;
+}
+.topSection>div{
+    margin: 15px 0;
+}
+.navLinks{
+    width: 100%;
+}
+.navLinks ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+}
+
+.navLinks ul li:hover{
+    color: #14A800;
+    cursor: pointer;
+}
+
+.topHeading{
+    color: #001E00;
+    font-size: 32px;
+    text-align: center;
+}
+.searchBar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center ; */
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+.searchTabs a{
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px;
+    
+}
+
+.inputBar{
+    margin: 10px 0;
+    border: 2px solid lightgray;
+    width: 50%;
+    padding: 2px;
+    border-radius: 15px;
+}
+.inputBar input{
+    width: 90%;
+    padding: 15px;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+}
+.inputBar span{
+    background-color: #14A800;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+.brandLogo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    margin: 20px 10px;
+}
+
+.talent{
+    margin: 15px 0;
+    width: 100%;
+    height: 500px;
+    background-image: url("./images/find-talent.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.talentDes{
+    width: 40%;
+    margin: 0 20px;
+    color: white;
+}
+.talentDes h1{
+    margin: 10px 0;
+    font-size: 42px;
+}
+.talentDes h5{
+    font-size: large;
+}

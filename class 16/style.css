@@ -1,0 +1,8 @@
+.myBTn{
+    width: 120px;
+    
+}
+
+.myBTn:hover{
+    background-color: red !important;
+}

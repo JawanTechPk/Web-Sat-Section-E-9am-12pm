@@ -1,0 +1,112 @@
+h1{
+    background-color: royalblue;
+    color: white;
+    padding: 20px;
+}
+
+body{
+    /* border: 2px solid green; */
+    /* padding: 10px 30px; */
+}
+
+.p1{
+    border: 1px solid red;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.myDiv{
+    border: 2px solid red;
+}
+
+.myDiv a{
+    display: block;
+
+}
+
+
+.list{
+    border: 2px solid brown;
+    -webkit-border-image: url("OIP.jpg") 
+    11 11 11 11 stretch; ;
+}
+.list li{
+        border: 3px solid green;
+        display: inline-block;
+        margin: 10px 20px ;
+        /* display: none; */
+    }
+
+
+    .para{
+        width: 500px;
+        margin-left: 80px;
+        /* border: 1px solid black; */
+        box-shadow: 5px 5px 5px grey , -5px -5px 5px grey;
+        padding: 5px;
+        border-radius: 8px;
+    }
+
+
+
+    .header{
+        background-color: chocolate;
+    }
+
+        .logo{
+            border: 2px solid green;
+            display: inline-block;
+        }   
+    .navlinks{
+            border: 2px solid red;
+            display: inline-block;
+    }
+
+
+.lists{
+    border: 2px solid red;
+}    
+
+.lists li{
+    border: 2px solid orange;
+    /* list-style-type: lower-roman;
+    list-style-position: outside ;
+    list-style-image: url("star.png"); */
+    list-style:none;
+}
+
+.mytable{
+    /* border: 1px solid black; */
+    border-collapse:collapse ;
+    
+}
+
+/* .mytable tr{
+
+} */
+.mytable th{
+    /* border: 1px solid red; */
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    background-color: lightblue;
+}
+
+
+.mytable td{
+    border-bottom: 1px solid gray;
+    empty-cells: hide;
+    padding: 5px;
+    
+}
+.mytable tr:hover{
+    background-color: pink;
+}
+
+.mytable td:hover{
+    background-color: orangered;
+}
+
+.mytable tr:nth-child(even){
+    background-color: purple;
+}
