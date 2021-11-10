@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myNavbar{
+    background-color: lightcoral;
+}
+
+.myDropDOwn a:hover{
+    background-color: lightcoral;
+}
+/* 
+.cardsBox{
+    d
+} */
+
+
+.myFOrm{
+    width: 50%;
+}
+
+
+
+@media only screen and (max-width:768px){
+    .myFOrm{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .myFOrm{
+        width: 100%;
+    }
+}
